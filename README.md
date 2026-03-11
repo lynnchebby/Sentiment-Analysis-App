@@ -6,7 +6,7 @@ An end-to-end Artificial Intelligence project that classifies customer reviews i
 This project aims to automate the analysis of customer feedback for a fine food business. By identifying trends in customer sentiment, businesses can proactively address complaints and highlight popular products.
 
 ##  Dataset
-- **Source**: [Sentimental Analysis (Google Colab)]( https://c32260f8eac749b956.gradio.live)
+- **Source**: [Sentimental Analysis (Kaggle)](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)
 - **Features**: Review Text, Star Ratings (converted to Sentiment labels), and Review Length.
 
 ##  Tech Stack
@@ -32,3 +32,23 @@ The model is deployed via a **Gradio Web App**. Users can input custom text to r
 1. Clone the repository:
    ```bash
    git clone [https://github.com/lynnchebby/Sentiment-Analysis-App.git](https://github.com/lynnchebby/Sentiment-Analysis-App.git)
+
+
+##  Project Links & Resources
+
+### 1. GitHub Repository
+- **URL**: [https://github.com/lynnchebby/Sentiment-Analysis-App](https://github.com/lynnchebby/Sentiment-Analysis-App)
+- **Includes**: 
+  - `app.py`: Gradio deployment script.
+  - `requirements.txt`: Library dependencies.
+  - `README.md`: Project manual.
+
+### 2. Deployed Model (Live Demo)
+- **Status**: [Live / Local Demo]
+- ** Link**: [Sentimental Analysis]( https://c32260f8eac749b956.gradio.live)
+- *Note: Gradio live links expire after 72 hours of inactivity.*
+
+### 3. Data Source
+- **Name**: Amazon Fine Food Reviews Dataset
+- **Link**: [Kaggle - Amazon Fine Food Reviews](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)
+- **Description**: A dataset of 568,454 reviews. This project utilizes a cleaned subset of 10,000 samples for sentiment classification.
